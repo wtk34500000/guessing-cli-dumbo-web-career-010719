@@ -1,6 +1,7 @@
 def run_guessing_game
   loop do
     rand_number=rand_num
+    
     input=user_input
     
     if input.to_i == rand_number  
